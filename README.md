@@ -7,7 +7,7 @@ The experiment compares ASR outputs before and after applying speech enhancement
 
 Overall, the project is motivated by a safety and robustness question: speech enhancement systems are often treated as preprocessing tools that should help downstream models, but they may not affect all speakers or accents equally. By auditing this interaction, the project aims to identify when enhancement is beneficial, when it is harmful, and whether certain noise or accent conditions are more vulnerable to ASR degradation.
 
-## Firt Experiment 
+## First Experiment 
 
 The notebook implements a matched-prompt ASR audit pipeline for accented speech. It loads CMU ARCTIC and L2-ARCTIC data, adds controlled noise, applies speech enhancement models, runs Whisper ASR, and evaluates WER/CER, degradation, helped/hurt rates, bootstrap confidence intervals, and summary plots. It also includes audio playback cells for checking samples before and after enhancement. The results have been consolidated in the PDF.
 
