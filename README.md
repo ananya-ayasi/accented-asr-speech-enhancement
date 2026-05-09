@@ -1,2 +1,2 @@
 # Accent Normalization Study
-A study on Accent Normalization in Speech-to-Speech Translation: Benchmarking, Measuring, Interpreting, and Mitigating Accent Drift
+A study on Accent removal in speech enhancement models: Benchmarking, Measuring, Interpreting, and Mitigating Accent Drift
